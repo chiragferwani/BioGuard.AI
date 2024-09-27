@@ -72,19 +72,15 @@ BioGuard.AI/
 4. **Integrating Backend with Frontend**:
     - Adjust API endpoints or integration as needed.
 
-## 🌟 Features
+## Features
 
-1. **MedGuard**:
-   - Enter any medicine name to get detailed information about its usage.
-   - Suggests alternative medicines with similar content.
-   
-2. **PredictGuard**:
-   - Take input of symptoms and predict potential diseases.
-   - Provides possible cures and treatments based on AI models.
+- **MedGuard**: Provides medicine information and alternative suggestions.
+- **PredictGuard**: Analyzes patient symptoms to predict potential diseases.
+- **MindGuard**: Assesses mental health and provides insights.
+- **FitGuard**: Takes user inputs to suggest personalized fitness and diet plans.
+- **RescueGuard**: Offers emergency contacts and hospital locations based on user input.
+- **FundGuard**: Provides quick loan services for medical emergencies.
 
-3. **MindGuard**:
-   - A series of questions help assess the user’s mental health.
-   - Delivers insights into psychological well-being.
 
 ## 💡 Advantages
 
