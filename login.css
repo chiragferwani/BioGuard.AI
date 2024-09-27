@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* Disable scrolling */
+}
+
+body {
+  background-color: #ffffff; /* Background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center; /* Center content vertically and horizontally */
+  
+}
+
+.login-container {
+  background-color: #99d9d9;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+}
+
+.image-container {
+  flex: 1; /* Allow the image container to fill remaining space */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; /* Padding for spacing */
+}
+
+.image-container img {
+  max-width: 100%; /* Responsive image */
+  height: auto; /* Maintain aspect ratio */
+}
+
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 600;
+  color: #1f2b5b; /* Updated font color */
+  font-size: 2rem;
+}
+
+p {
+  margin: 20px 0;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #1b1b1b;
+  line-height: 0.1em;
+}
+
+p span {
+  background: #ffffff;
+  padding: 0 10px;
+}
+
+input {
+  margin-bottom: 20px;
+  background-color: #ffffff; /* Input field background */
+  color: black;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%; /* Fit the container */
+}
+
+input::placeholder {
+  color: #1b1b1b;
+}
+
+button {
+  padding: 12px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #1f2b5b;
+  color: white;
+  border: none;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #dddddd;
+  transition: background-color 0.3s;
+}
+
+#sign-up, #return-btn {
+  background-color: #1f2b5b;
+  color: white;
+}
+
+#sign-up:hover, #return-btn:hover {
+  background-color: #555;
+}
+
+#create-acct {
+  display: none; /* Hide create account section by default */
+}
